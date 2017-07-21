@@ -4,4 +4,12 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>BaseServlet</servlet-name>
+        <servlet-class>com.xyz.cloudplatform.web.base.BaseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BaseServlet</servlet-name>
+        <url-pattern>/getMsg</url-pattern>
+    </servlet-mapping>
 </web-app>
